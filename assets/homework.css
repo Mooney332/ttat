@@ -1,0 +1,181 @@
+/* header */
+
+.header {
+    width: 1514px;
+    height: 65px;
+    background-color: rgb(13, 0, 128);
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+a :hover {
+    color: #ffffff
+}
+
+.menu {
+    margin-top: -64px;
+    margin-bottom: 0px;
+    margin-left: 60%;
+    /* margin-left: 10px; */
+    color: #fff;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/* body */
+
+
+/*------ comtent1 --------*/
+
+.body img {
+    width: 1517px;
+    height: 471px
+}
+
+.body .right img {
+    width: 500px;
+    height: 380px;
+    margin-top: -246px;
+    margin-left: 897px
+}
+
+.body .left h2 {
+    margin-right: 46%;
+    margin-left: 4%;
+}
+
+.body .left h1 {
+    font-size: 30px;
+    margin-left: 5%;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.body .left p {
+    margin-right: 46%;
+    margin-left: 4%;
+}
+
+
+/*---------content2---------- */
+
+.OB {
+    margin-left: 4%;
+    margin-top: -9%;
+}
+
+
+/*--------content3-------- */
+
+.new .pic1 {
+    width: 353px;
+    height: 321px;
+    border: 2px solid rgb(107, 104, 104);
+    margin: 0 auto;
+    margin-left: 10%
+    /* background-color: aqua; */
+}
+
+.new .pic2 {
+    width: 353px;
+    height: 323px;
+    border: 2px solid rgb(107, 104, 104);
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-left: 507px;
+    margin-top: -326px;
+    margin-left: 35%;
+}
+
+.new .pic3 {
+    width: 353px;
+    height: 321px;
+    border: 2px solid rgb(107, 104, 104);
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-left: 865px;
+    margin-top: -326px;
+    margin-left: 60%;
+}
+
+.new .pic1 img {
+    width: 353px;
+    height: 220px;
+}
+
+.new .pic2 img {
+    width: 353px;
+    height: 220px;
+    margin-top: -21px;
+}
+
+.new .pic3 img {
+    width: 353px;
+    height: 220px;
+    margin-top: -21px;
+}
+
+.new h2 {
+    margin-left: 8%;
+    font-size: 26px;
+    color: blue;
+    margin-bottom: -10px;
+}
+
+.new h3 {
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+
+/* contact */
+
+.contact {
+    width: 1200px;
+    height: 325px;
+    /* background-color: #ff34ff; */
+    border: 2px solid rgba(221, 221, 221, 0.767);
+    margin-left: 10%;
+    margin-top: 35px
+}
+
+
+/*========footer====== */
+
+.footer {
+    width: 1500px;
+    height: 200px;
+    background-color: black;
+}
+
+.footer .creave {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.footer .categorys {
+    margin-top: -150px;
+    margin-left: 36%;
+}
+
+.footer .language {
+    margin-top: -173px;
+    margin-left: 53%;
+}
+
+.footer .submit {
+    margin-top: -117px;
+    margin-left: 68%
+}

@@ -1,0 +1,53 @@
+.header {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border: 1px solid red;
+    margin: o auto;
+    /* width: 100%;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0; */
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.right {
+    width: 30%;
+    /* background-color: yellow; */
+    height: 100%;
+}
+
+.header .left img {
+    width: 100%;
+}
+
+.hightlight h2 {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0 2px;
+    color: #06c;
+    border-top: 2px solid #06c;
+    display: block
+}
+
+.hightlight {
+    left: 600px;
+    right: 600px;
+}
+
+.hightlight {
+    background-origin: padding-box;
+}

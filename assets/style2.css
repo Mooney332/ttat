@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    height: auto;
+    padding: 2px 0px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .right {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.left .ul {
+    display: flex;
+}
+
+.left .ul .li {
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.left {
+    padding-top: 0%;
+}

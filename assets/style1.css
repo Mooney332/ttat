@@ -1,0 +1,39 @@
+.body {
+    background-color: black;
+    width: 1500px;
+    height: 700px;
+}
+
+.pic {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 25px;
+    background-image: url(/image/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.pic::after {
+    width: 100%;
+    min-height: 500px;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.pic_banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.pic_banner button {
+    background-color: red;
+    color: #FFF;
+    width: 79%;
+    height: 8%;
+}

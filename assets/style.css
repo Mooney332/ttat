@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    color: #ff34ff
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu img {
+    margin: 0px 15px -20px;
+}
+
+
+/* *SLICE* */
+
+.slice {
+    margin-top: 30px;
+    position: relative;
+}
+
+.slice .left {
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 210px;
+}
+
+h2.left-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2.left-title span {
+    display: block;
+}
+
+.left p {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 55px;
+    background-color: #758dba;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    transition: all 0.25s linear;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.slice.right {
+    position: absolute;
+    left: 100px;
+    top: 90px;
+}
+
+.hidden {
+    background-color: rgba(red, green, blue, alpha);
+    position: absolute;
+    color: #fff;
+    margin-right: 30px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.link-Slice {
+    position: absolute;
+    right: 6%;
+    bottom: 5%;
+    font-size: 30px;
+}
+
+
+/* banner */
+
+.banner {
+    margin-top: 20px;
+}
+
+#bannerleft {
+    width: 680px;
+    height: 590px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('../image/banner1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#bannerright {
+    width: 500px;
+    height: 700px;
+    float: right;
+    background-image: url('../image/banner2.jpg');
+    background-size: cover;
+    position: absolute;
+}
+
+.textl {
+    position: absolute;
+    left: 440px;
+    bottom: 75px;
+    font-size: 60px;
+    color: rgb(195, 71, 206);
+}
+
+.view1 {
+    position: absolute;
+    left: 440px;
+    bottom: 50px;
+    text-transform: uppercase;
+}
+
+.textR {
+    position: absolute;
+    left: 47px;
+    bottom: 489px;
+    font-size: 63px;
+    color: rgb(209, 153, 47);
+}
+
+.view2 {
+    position: absolute;
+    left: 50px;
+    bottom: 449px;
+    text-transform: uppercase;
+}
+
+
+/* content */
+
+#title {
+    margin-top: 850px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: aqua;
+}
+
+.sp,
+.ten {
+    width: 285px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.sp:first-child,
+.ten:first-child {
+    margin-left: 0;
+}
+
+.sp img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.sp img:hover {
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+.ten p {
+    color: rgb(230, 41, 220);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.gia {
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 215px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.gia spam {
+    font-size: 70px;
+}
+
+
+/* footer */
+
+.about {
+    width: 400px;
+    float: left;
+}
+
+.about #trai {
+    width: 70px;
+    height: 38px;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: left;
+}
+
+.about#phai {
+    width: 245px;
+    color: aquamarine;
+    float: left;
+}
+
+.contact {
+    width: 300px;
+    float: left;
+}
